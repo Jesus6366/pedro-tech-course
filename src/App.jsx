@@ -1,16 +1,12 @@
 import "./App.css";
-import Planet from "./Planet";
+import Counter from "./Counter.jsx";
 
 function App() {
   return (
-    <>
-      <Planet />
-    </>
+    <div className="App">
+      <Counter />
+    </div>
   );
 }
-
-const Job = ({ salary, position, company }) => {
-  return <></>;
-};
 
 export default App;
